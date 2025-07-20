@@ -1834,6 +1834,56 @@
       75% { transform: translateX(-5px); }
       100% { transform: translateX(0); }
     }
+    
+    /* Ad Styles */
+    .ad-container {
+      text-align: center;
+      margin: 20px 0;
+      padding: 15px;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+    }
+    
+    .ad-link {
+      display: inline-block;
+      padding: 10px 20px;
+      background: var(--primary);
+      color: white;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: var(--transition);
+    }
+    
+    .ad-link:hover {
+      background: #2a75f0;
+      transform: translateY(-2px);
+    }
+    
+    .ad-banner {
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto;
+      display: block;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+    }
+    
+    .ad-text {
+      margin: 15px 0;
+      color: var(--dark);
+      font-weight: 500;
+    }
+    
+    .ad-label {
+      font-size: 12px;
+      color: var(--secondary);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+      display: block;
+    }
   </style>
 </head>
 <body>
@@ -2088,6 +2138,14 @@
           <h1 id="heroTitleDisplay">Unlock Your Potential</h1>
           <p id="heroSubtitleDisplay">Limitless Mindset is a blog dedicated to personal growth, mindset transformation, and achieving your full potential. Join us on this journey of self-discovery.</p>
           <a href="https://limitlessapk.xyz/" target="_blank" class="btn btn-premium">GET PREMIUM APK</a>
+          
+          <!-- DIRECT LINK AD -->
+          <div class="ad-container" style="margin-top: 25px;">
+            <span class="ad-label">Advertisement</span>
+            <a href="https://www.profitableratecpm.com/a3scj7u0g6?key=11a720c2775074e4f0f93718da3ccb65" target="_blank" class="ad-link">
+              Discover Amazing Opportunities
+            </a>
+          </div>
         </div>
       </section>
 
@@ -2135,6 +2193,13 @@
               <h3 class="widget-title">About Me</h3>
               <img id="aboutWidgetImageDisplay" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Author">
               <p id="aboutWidgetDescriptionDisplay">Hi, I'm Jane Smith, founder of Limitless Mindset. I'm passionate about helping people overcome mental barriers and achieve their dreams.</p>
+            </div>
+            
+            <!-- NATIVE BANNER AD -->
+            <div class="widget">
+              <span class="ad-label">Advertisement</span>
+              <script async="async" data-cfasync="false" src="//pl27215767.profitableratecpm.com/3ae5db9799ced4cda1678c5536403f56/invoke.js"></script>
+              <div id="container-3ae5db9799ced4cda1678c5536403f56"></div>
             </div>
 
             <!-- Popular Posts -->
@@ -3512,17 +3577,5 @@
       setupOTPInputs();
     });
   </script>
-  
-  <!-- Popup Ad Script -->
-  <script>
-    // Show popup ad after 10 seconds
-    setTimeout(function() {
-      window.open("https://www.profitableratecpm.com/a3scj7u0g6?key=11a720c2775074e4f0f93718da3ccb65", "_blank", "width=800,height=600");
-    }, 10000);
-  </script>
-  
-  <!-- Native Ad Bar -->
-  <script async="async" data-cfasync="false" src="//pl27215767.profitableratecpm.com/3ae5db9799ced4cda1678c5536403f56/invoke.js"></script>
-  <div id="container-3ae5db9799ced4cda1678c5536403f56"></div>
 </body>
 </html>
